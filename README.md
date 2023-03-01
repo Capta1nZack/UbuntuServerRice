@@ -23,7 +23,7 @@ Not installing at the end
 * type y and hit enter to accept
 
 ## Install i3 and dependencies
-* sudo apt install i3 i3lock i3status i3blocks rofi terminator firefox
+* sudo apt install i3 i3lock i3status i3blocks rofi terminator firefox feh arandr unzip lxappearance thunar gnome-icon-theme
 * type y and hit enter to accept
 
 ## Copy xinitrc to home directory
@@ -50,3 +50,7 @@ This info needs to be pasted within the empty space in the file that is opened
 
 
 ## Copy i3 config file
+
+
+## Picom Extras
+libxcb-xinerama0-dev libpcre3-dev
