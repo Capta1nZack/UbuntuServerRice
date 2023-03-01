@@ -39,3 +39,14 @@ Not installing at the end
 *  . startx
 *  logout
 * fi
+
+## Make Server Login Automatically
+This info needs to be pasted within the empty space in the file that is opened
+* sudo systemctl edit getty@tty1.service
+* [Service]
+* ExecStart=
+* ExecStart=-/sbin/agetty --noissue --autologin myusername %I $TERM
+* Type=idle
+
+
+## Copy i3 config file
