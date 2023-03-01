@@ -23,7 +23,7 @@ Not installing at the end
 * type y and hit enter to accept
 
 ## Install i3 and dependencies
-* sudo apt install i3 i3lock i3status i3blocks dmenu terminator firefox
+* sudo apt install i3 i3lock i3status i3blocks rofi terminator firefox
 * type y and hit enter to accept
 
 ## Copy xinitrc to home directory
